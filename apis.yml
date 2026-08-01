@@ -1,7 +1,23 @@
 aid: sophontai
-name: Sophontai
-description: Sophontai is a company surfaced as a portfolio company of kindred-ventures and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+name: Sophont
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
+description: >-
+  Sophont is a frontier medical AI lab (est. 2025) building open, universal,
+  multimodal foundation models for medicine, working toward open medical superintelligence
+  for clinicians. Its open-weight models are evaluated publicly and built with the
+  research community (in collaboration with MedARC), spanning computational pathology
+  (OpenMidnight and the nanopath challenge), functional MRI (CortexMAE), fMRI vision
+  decoding (Brainmarks), and clinical-text benchmarks (Medmarks). Sophont aims to unify
+  every modality of patient data (clinical notes, labs, imaging, pathology, physiological
+  signals, genomics, medications, and demographics) into a single model of patient
+  state to model disease trajectory, predict intervention response, and accelerate
+  biomedical research. Backed by Kindred Ventures. Enrichment note (2026-07-21) —
+  Sophont is a research lab that publishes open model weights, benchmarks, and papers;
+  it does not currently expose a public developer API, OpenAPI, SDK, or docs portal.
 url: https://raw.githubusercontent.com/api-evangelist/sophontai/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +25,30 @@ x-backed-by:
 - kindred-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Artificial Intelligence
+- Machine Learning
+- Healthcare
+- Medical Imaging
+- Foundation Models
+- Open Source
+- Research
+image: https://sophont.med/assets/generated/hero-medical-ai-bg.webp
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +56,19 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/sophontai-domain-security.yml
 - type: Website
-  url: https://sophontai.com/
+  url: https://sophont.med/
+- type: Blog
+  url: https://sophont.med/blog/
+- type: GitHubOrganization
+  url: https://github.com/SophontAI
+- type: HuggingFace
+  url: https://huggingface.co/sophont
+- type: Careers
+  url: https://sophont.med/hiring/
+- type: Partner
+  url: https://sophont.med/partner/
+- type: Twitter
+  url: https://x.com/sophontai
