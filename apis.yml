@@ -53,11 +53,11 @@ modified: '2026-07-21'
 tags:
 - Company
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Healthcare
 - Medical Imaging
 - Foundation Models
-- Open-Source
+- Open Source
 - Research
 tags_raw:
 - Company
@@ -68,6 +68,8 @@ tags_raw:
 - Foundation Models
 - Open Source
 - Research
+- Machine-Learning
+- Open-Source
 image: https://sophont.med/assets/generated/hero-medical-ai-bg.webp
 apis: []
 maintainers:
